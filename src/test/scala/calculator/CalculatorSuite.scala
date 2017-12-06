@@ -1,13 +1,9 @@
 package calculator
 
-import org.scalatest.FunSuite
-
+import calculator.TweetLength.MaxTweetLength
 import org.junit.runner.RunWith
+import org.scalatest.{FunSuite, _}
 import org.scalatest.junit.JUnitRunner
-
-import org.scalatest._
-
-import TweetLength.MaxTweetLength
 
 @RunWith(classOf[JUnitRunner])
 class CalculatorSuite extends FunSuite with ShouldMatchers {

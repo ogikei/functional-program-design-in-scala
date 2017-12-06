@@ -1,6 +1,5 @@
 
 import java.io.File
-
 package object common {
 
   /** An alias for the `Nothing` type.
